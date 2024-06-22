@@ -1,0 +1,82 @@
+html{
+    background-color: #F9ED25;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+}
+.title{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.infoContainer{
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+}
+
+.infoItem{
+    flex-grow: 1;
+    font-weight: 500;
+}
+
+main{
+    width: 70vw;
+    margin-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+article {
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+article:hover{
+    background-color: rgb(253, 205, 18);
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.tagContainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.tagItem{
+    background-color: #000000;
+    color: #F9ED25;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-style: italic;
+}
+
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
