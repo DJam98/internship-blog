@@ -71,6 +71,7 @@ a{
 .subtitle{
     font-size: 1.3rem;
     font-weight: 600;
+    font-style: italic;
 }
 
 .backHover:hover{
