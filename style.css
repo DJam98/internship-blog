@@ -68,6 +68,14 @@ a{
     font-style: italic;
 }
 
+.subtitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.backHover:hover{
+    background-color: rgb(37, 37, 37);
+}
 
 /*
 // <uniquifier>: Use a unique and descriptive class name
