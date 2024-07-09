@@ -28,6 +28,18 @@ header{
     font-weight: 500;
 }
 
+.infoName{
+    order: 1;
+}
+
+.infoTitle{
+    order: 2;
+}
+
+.infoHours{
+    order: 3;
+}
+
 main{
     width: 70vw;
     margin-left: 15vw;
@@ -76,6 +88,17 @@ a{
 
 .backHover:hover{
     background-color: rgb(37, 37, 37);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .infoName {
+        order: 2;
+    }
+
+    .infoTitle{
+        order: 1;
+    }
 }
 
 /*
