@@ -90,14 +90,24 @@ a{
     background-color: rgb(37, 37, 37);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 
     .infoName {
         order: 2;
+        width: 100%;
     }
 
     .infoTitle{
         order: 1;
+        width: 100%;
+    }
+
+    .infoContainer{
+        flex-direction: column;
+    }
+
+    .scuff{
+        display: none;
     }
 }
 
